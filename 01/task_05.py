@@ -17,7 +17,7 @@ print('Input coordinates point B:')
 x_B = float(input('x: '))
 y_B = float(input('y: '))
 
-distance = math.sqrt((x_A - x_B)**2 + (y_A - y_B)**2)
+distance = math.sqrt((x_B - x_A)**2 + (y_B - y_A)**2)
 
 print(f'Distance between A and B: {round(distance, 2)}')
 
