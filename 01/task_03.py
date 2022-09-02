@@ -9,8 +9,8 @@
 # - x=2; y=4-> 1
 # - x=-34; y=-30 -> 3
 
-x = int(input("Input x: "))
-y = int(input("Input y: "))
+x = float(input("Input x: "))
+y = float(input("Input y: "))
 
 if x == 0 and y ==0:
     print('Input x and y > 0')
