@@ -4,6 +4,6 @@
 number = input('Input float number: ')
 sum = 0
 for i in number:
-    if i != ',' and i != '.':
+    if i != ',' and i != '.' and i != ' ':
         sum += int(i)
 print(sum)
