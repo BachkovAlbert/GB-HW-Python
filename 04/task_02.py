@@ -2,7 +2,7 @@
 # которая составит список простых множителей числа N.
 # "20" -> [2, 2, 5]
 
-def Simple_Multipliers(num):
+def simple_multipliers(num):
     i = 2 
     list = []
     while i <= num:
@@ -13,4 +13,4 @@ def Simple_Multipliers(num):
             i += 1
     return list
 
-print(Simple_Multipliers(20))
+print(simple_multipliers(20))

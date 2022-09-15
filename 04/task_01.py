@@ -3,11 +3,11 @@
 
 import math
 
-def Accuracy_rounding(num, acc):
+def accuracy_rounding(num, acc):
     d = 0
     while acc < 1:
         acc *= 10
         d += 1
     return round(num, d)
 
-print(Accuracy_rounding(math.pi, 0.001))
+print(accuracy_rounding(math.pi, 0.001))
