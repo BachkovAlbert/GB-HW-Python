@@ -48,8 +48,8 @@ def polynomial_creation(l):
                 
     return new_list
 
-def write_file(f):
-    with open('polynomial(task_04).txt', 'w') as file:
+def write_file(n, f):
+    with open(n, 'w') as file:
         file.write(f)
 
 k = int(input('input natural degree k: '))
@@ -59,5 +59,5 @@ tsil = create_list(k)
 print(tsil)      
 print(polynomial_creation(tsil))    
 
-write_file(polynomial_creation(tsil))
+write_file('polynomial(task_04).txt', polynomial_creation(tsil)) 
 
