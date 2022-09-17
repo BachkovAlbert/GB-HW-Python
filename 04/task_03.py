@@ -3,13 +3,13 @@
 # [1, 1, 2, 3, 4, 5, 5] -> [2, 3, 4]
 
 
-def elimination_of_repetitions(list):
+def elimination_of_repetitions(tsil):
     lst = []
     i = 0
-    while i < len(list):
-        count = list.count(list[i])
+    while i < len(tsil):
+        count = tsil.count(tsil[i])
         if count == 1:
-            lst.append(list[i])
+            lst.append(tsil[i])
         i += 1
     return lst
 
