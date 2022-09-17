@@ -4,13 +4,13 @@
 
 def simple_multipliers(num):
     i = 2 
-    list = []
+    tsil = []
     while i <= num:
         if num % i == 0:
-            list.append(i)
+            tsil.append(i)
             num /= i
         else:
             i += 1
-    return list
+    return tsil
 
 print(simple_multipliers(20))
